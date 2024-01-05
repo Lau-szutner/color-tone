@@ -1,0 +1,17 @@
+header h1 {
+  margin-left: 10px;
+}
+
+#colors {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.color {
+  height: 100%;
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+}
