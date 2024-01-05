@@ -1,5 +1,11 @@
-header h1 {
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
   margin-left: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 #colors {
@@ -11,7 +17,21 @@ header h1 {
 .color {
   height: 100%;
   width: 100%;
-  border: 1px solid black;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+#lockers {
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.lockers {
+  height: 30px;
+  width: 30px;
+  background-color: black;
 }

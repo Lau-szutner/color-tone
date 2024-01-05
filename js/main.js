@@ -25,3 +25,13 @@ for (let i = 0; i <= 6; i++) {
   colores(cuatro);
   colores(cinco);
 }
+
+let divs = document.querySelectorAll('.color');
+
+divs.forEach(div => {
+  div.addEventListener('click', function (event) {
+    let divPresionado = event.target;
+
+    colores(divPresionado);
+  });
+});
